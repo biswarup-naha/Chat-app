@@ -1,0 +1,23 @@
+.ls{
+    background: #001030;
+    color: white;
+    height: 75vh;
+}
+
+.ls-top{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 20px;
+}
+
+.ls-nav{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+
+.ls-nav .logo{
+    width: max(20vw,200px);
+}
