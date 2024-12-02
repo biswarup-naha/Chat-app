@@ -13,17 +13,16 @@
 
 .ls-nav{
     display: flex;
-    align-items: center;
-    /* gap: 10px; */
     justify-content: space-between;
+    align-items: center;
 }
 
 .ls-nav .logo{
-    width: max(20vw,140px);
+    max-width: 140px;
 }
 
 .ls-nav .menu img{
-    max-width: 30px;
+    max-width: 20px;
     opacity: 0.6;
     cursor: pointer;
 }
@@ -34,12 +33,11 @@
     align-items: center;
     gap: 10px;
     padding: 10px 20px;
-    border-radius: 5px;
     margin-top: 20px;
 }
 
 .ls-search img{
-    width: 20px;
+    width: 16px;
 }
 
 .ls-search input{
@@ -93,3 +91,33 @@
 .friends:hover span{
     color: white;   
 }
+
+.ls-nav .menu{
+    position: relative;
+    padding: 10px 0px;
+}
+
+.menu .sub-menu{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 130px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sub-menu hr{
+    border: none;
+    height: 1px;
+    background: #a4a4a4;
+    margin: 8px 0px;    
+}
+
+.sub-menu p{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* 1:41:04 */
