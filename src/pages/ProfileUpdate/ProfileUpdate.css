@@ -1,0 +1,92 @@
+.profile{
+    min-height: 100vh;
+    background: url(/background.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 700px;
+    border-radius: 10px;
+}
+
+.profile-pic{
+    max-width: 160px;
+    aspect-ratio: 1/1;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.profile form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.profile form h3{
+    font-weight: 500;
+}
+
+.profile form label{
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+    color: grey;
+    cursor:pointer;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.profile form label .cam{
+    position: relative;
+    top: 18px;
+    right: 13px;
+    font-size: 18px;
+    color: #08396d;
+}
+
+.profile label img{
+    width: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.profile input, textarea{
+    padding: 10px;
+    min-width: 300px;
+    border: 1px solid #c9c9c9;
+    outline-color: #077eff;
+    box-shadow: 2px 2px 5px #c9c9c9;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile input::placeholder, textarea::placeholder{
+    color: #c9c9c9;
+}
+
+.profile input:focus, textarea:focus{
+    scale: 1.02;
+}
+
+.profile form button{
+    color: white;
+    background: #077eff;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile form button:hover{
+    background: #037dff;    
+    color: rgb(180, 215, 245);
+}
